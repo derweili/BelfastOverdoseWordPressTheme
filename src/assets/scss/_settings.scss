@@ -68,16 +68,16 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1200);
+$global-width: rem-calc(680);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
+  primary: black,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
 );
-$light-gray: #e6e6e6;
+$light-gray: #A7A5A5;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
@@ -133,12 +133,12 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: bold;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
 $header-lineheight: 1.4;
-$header-margin-bottom: 0.5rem;
+$header-margin-bottom: 0.8em;
 $header-styles: (
   small: (
     'h1': ('font-size': 24),
@@ -149,7 +149,7 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 48),
+    'h1': ('font-size': 46),
     'h2': ('font-size': 40),
     'h3': ('font-size': 31),
     'h4': ('font-size': 25),
@@ -438,10 +438,10 @@ $input-line-height: $global-lineheight;
 $input-background: $white;
 $input-background-focus: $white;
 $input-background-disabled: $light-gray;
-$input-border: 1px solid $medium-gray;
+$input-border: 2px solid $black;
 $input-border-focus: 1px solid $dark-gray;
 $input-padding: $form-spacing / 2;
-$input-shadow: inset 0 1px 2px rgba($black, 0.1);
+$input-shadow: none;
 $input-shadow-focus: 0 0 5px $medium-gray;
 $input-cursor-disabled: not-allowed;
 $input-transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
@@ -474,10 +474,10 @@ $menu-margin: 0;
 $menu-nested-margin: $global-menu-nested-margin;
 $menu-items-padding: $global-menu-padding;
 $menu-simple-margin: 1rem;
-$menu-item-color-active: $white;
-$menu-item-background-active: get-color(primary);
+$menu-item-color-active: $light-gray;
+$menu-item-background-active: transparent;
 $menu-icon-spacing: 0.25rem;
-$menu-item-background-hover: $light-gray;
+$menu-item-background-hover: transparent;
 $menu-state-back-compat: true;
 $menu-centered-back-compat: true;
 $menu-icons-back-compat: true;
@@ -821,11 +821,11 @@ $thumbnail-radius: $global-radius;
 // 53. Title Bar
 // -------------
 
-$titlebar-background: $dark-nav-color;
+$titlebar-background: $white;
 $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
-$titlebar-icon-color: $white;
+$titlebar-icon-color: $black;
 $titlebar-icon-color-hover: $medium-gray;
 $titlebar-icon-spacing: 0.25rem;
 
@@ -848,7 +848,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0;
-$topbar-background: $dark-nav-color;
+$topbar-background: transparent;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;

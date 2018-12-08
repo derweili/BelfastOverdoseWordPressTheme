@@ -34,6 +34,9 @@ if ( ! function_exists( 'foundationpress_theme_support' ) ) :
 		// RSS thingy
 		add_theme_support( 'automatic-feed-links' );
 
+		// Gutenberg Wide images
+		add_theme_support( 'align-wide' );
+
 		// Add post formats support: http://codex.wordpress.org/Post_Formats
 		add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat' ) );
 

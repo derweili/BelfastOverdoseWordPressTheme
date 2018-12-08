@@ -10,6 +10,7 @@
 ?>
 
 <footer class="footer">
+  <?php footer_nav(); ?>
     <div class="footer-container">
         <div class="footer-grid">
             <?php dynamic_sidebar( 'footer-widgets' ); ?>

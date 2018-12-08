@@ -1,0 +1,17 @@
+input.ninja-forms-field[type="button"]{
+  @include button;
+  font-weight: bold;
+}
+
+
+.nf-field-container.submit-container{
+  text-align: right;
+}
+
+form .nf-field-container{
+  margin-bottom: rem-calc(10);
+}
+
+.nf-before-form-content{
+  margin-bottom: rem-calc(20);
+}

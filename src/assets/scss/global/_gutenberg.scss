@@ -58,3 +58,25 @@ Frontend styles for gutenberg blocks
 .wp-block-file .wp-block-file__button{
   @include button();
 }
+
+
+/** == Wide Elements ==*/
+.alignwide{
+    margin-left: -105px;
+    margin-right: -105px;
+    @include breakpoint(medium){
+      margin-left: -282px;
+      margin-right: -282px;
+    }
+    max-width: none;
+}
+
+
+.embed-align-center{
+  .wp-block-embed__wrapper{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+  }
+}
