@@ -26,8 +26,9 @@
 
     a {
       color: $white;
-      font-weight: 600;
+      font-weight: 700;
       font-size: rem-calc(15);
+      font-family: $header-font-family;
     }
   }
 
@@ -56,10 +57,12 @@
 
 .desktop-menu{
   padding-top: rem-calc(20);
-  padding-bottom: rem-calc(20);
+  // padding-bottom: rem-calc(20);
   a{
-    font-weight: bold;
-    font-size: rem-calc(14);
+    font-weight: 700;
+    font-size: rem-calc(18);
+    font-family: $header-font-family;
+    text-transform: uppercase;
   }
 }
 
@@ -80,4 +83,10 @@
 
 .nav-next {
   float:right;
+}
+
+.social-nav{
+  a{
+    font-size: rem-calc(24);
+  }
 }

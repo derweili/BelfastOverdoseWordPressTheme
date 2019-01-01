@@ -57,6 +57,7 @@
   My custom styles:
   Add your scss files below to structure your project styles
 */
+@import "../social-icons/flaticon.scss";
 
 // Global
 @import "global/accessibility";
@@ -64,6 +65,7 @@
 @import "global/wp-admin";
 @import "global/wp-overrides";
 @import "global/gutenberg";
+@import "global/typography";
 
 // Modules
 @import "modules/navigation";
@@ -78,6 +80,7 @@
 @import "components/dividers";
 @import "components/links";
 @import "components/forms";
+@import "components/instagram";
 
 // Templates
 @import "templates/front";

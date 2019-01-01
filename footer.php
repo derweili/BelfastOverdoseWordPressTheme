@@ -9,6 +9,24 @@
  */
 ?>
 
+<ul class="menu align-center social-nav">
+  <li>
+    <a href="https://open.spotify.com/artist/1hpgU9Y9u4sA2192WxbFUt" target="_blank"><i class="fi flaticon-spotify"></i></a>
+  </li>
+  <li>
+    <a href="https://itunes.apple.com/de/artist/belfast-overdose/1331033235" target="_blank"><i class="fi flaticon-apple"></i></a>
+  </li>
+  <li>
+    <a href="https://www.facebook.com/BelfastOverdose/?modal=admin_todo_tour" target="_blank"><i class="fi flaticon-facebook"></i></a>
+  </li>
+  <li>
+    <a href="https://www.instagram.com/belfastoverdose/" target="_blank"><i class="fi flaticon-instagram"></i></a>
+  </li>
+  <li>
+    <a href="https://static.wixstatic.com/media/78aa2057f0cb42fbbaffcbc36280a64a.png/v1/fill/w_60,h_60,al_c,q_80,usm_0.66_1.00_0.01/78aa2057f0cb42fbbaffcbc36280a64a.webp" target="_blank"><i class="fi flaticon-youtube"></i></a>
+  </li>
+</ul>
+
 <footer class="footer">
   <?php footer_nav(); ?>
     <div class="footer-container">
