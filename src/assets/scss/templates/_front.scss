@@ -1,12 +1,12 @@
 .front-hero{
-  background-image: url('../images/green-leaves.jpg');
+  background-image: url('../images/bg.jpg');
   max-width: rem-calc(1084);
   width: 100%;
   margin: 0 auto;
   background-size: cover;
   background-position: center center;
   @include breakpoint(medium){
-    padding: 80px 20% 20px;
+    padding: 80px 285px 20px;
   }
   h1{
     text-align: center;
