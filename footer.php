@@ -23,7 +23,7 @@
     <a href="https://www.instagram.com/belfastoverdose/" target="_blank"><i class="fi flaticon-instagram"></i></a>
   </li>
   <li>
-    <a href="https://static.wixstatic.com/media/78aa2057f0cb42fbbaffcbc36280a64a.png/v1/fill/w_60,h_60,al_c,q_80,usm_0.66_1.00_0.01/78aa2057f0cb42fbbaffcbc36280a64a.webp" target="_blank"><i class="fi flaticon-youtube"></i></a>
+    <a href="https://www.youtube.com/channel/UC2Rl5gMQUJWGMr0-GiSjQAg" target="_blank"><i class="fi flaticon-youtube"></i></a>
   </li>
 </ul>
 
