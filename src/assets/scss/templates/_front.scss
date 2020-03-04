@@ -5,6 +5,7 @@
   margin: 0 auto;
   background-size: cover;
   background-position: center center;
+  padding: 30px;
   @include breakpoint(medium){
     padding: 80px 285px 20px;
   }
