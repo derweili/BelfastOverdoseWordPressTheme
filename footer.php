@@ -16,9 +16,6 @@
   <li>
     <a href="https://itunes.apple.com/de/artist/belfast-overdose/1331033235" target="_blank"><i class="fi flaticon-apple"></i></a>
   </li>
-  <!-- <li>
-    <a href="https://www.facebook.com/BelfastOverdose/?modal=admin_todo_tour" target="_blank"><i class="fi flaticon-facebook"></i></a>
-  </li> -->
   <li>
     <a href="https://www.instagram.com/belfastoverdose/" target="_blank"><i class="fi flaticon-instagram"></i></a>
   </li>

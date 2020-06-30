@@ -6,7 +6,7 @@ Template Name: Front
 get_header(); ?>
 
 <div class="front-hero">
-	<a href="https://fanlink.to/belfastoverdose" target="_blank">
+	<a href="https://fanlink.to/Melody_BelfastOverdose_Vescu" target="_blank">
 		<?php the_post_thumbnail('large'); ?>
 		<h1>Out now</h1>
 	</a>
